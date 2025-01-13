@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dharmatab</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="content">
+    <!-- Search bar section -->
+    <div id="google-search">
+      <form action="https://www.google.com/search" method="get" target="_blank">
+        <input type="text" name="q" placeholder="Search with Google..." required>
+        <button type="submit">Search</button>
+      </form>
+    </div>
+
+    <!-- Quote display section -->
+    <div id="quote-container">
+      <p id="quote-text">Loading...</p>
+    </div>
+  </div>
+
+  <!-- Button to open the background selection menu -->
+  <button id="open-menu">Backgrounds</button>
+
+  <!-- Background selection modal -->
+  <div id="background-menu" class="hidden">
+    <div id="background-options">
+      <h3>Select a background</h3>
+      <div id="background-thumbnails">
+        <img src="images/sfondo1.jpg" class="background-option" data-bg="images/sfondo1.jpg">
+        <img src="images/sfondo2.jpg" class="background-option" data-bg="images/sfondo2.jpg">
+        <img src="images/sfondo3.jpg" class="background-option" data-bg="images/sfondo3.jpg">
+        <img src="images/sfondo4.jpg" class="background-option" data-bg="images/sfondo4.jpg">
+        <img src="images/sfondo5.jpg" class="background-option" data-bg="images/sfondo5.jpg">
+        <img src="images/sfondo6.jpg" class="background-option" data-bg="images/sfondo6.jpg">
+        <img src="images/sfondo7.jpg" class="background-option" data-bg="images/sfondo7.jpg">
+      </div>
+      <button id="close-menu">Close</button>
+    </div>
+  </div>
+
+  <script src="background.js"></script>
+</body>
+</html>

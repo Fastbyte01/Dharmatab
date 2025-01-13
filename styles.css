@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center; /* Center elements vertically */
+  align-items: center; /* Center elements horizontally */
+  background: url('images/sfondo1.jpg') no-repeat center center fixed; /* Background image fixed and centered */
+  background-size: cover; /* Scale the background to cover the entire viewport */
+  font-family: Arial, sans-serif; /* Font style for the entire page */
+  color: #fff; /* Text color */
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.7); /* Adds a shadow effect to the text */
+  overflow: hidden; /* Hides any overflowing content */
+}
+
+#content {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center-align the content */
+  gap: 20px; /* Space between elements */
+  width: 100%; /* Make sure the container spans full width */
+}
+
+#google-search {
+  text-align: center; /* Center-align the search bar */
+}
+
+#google-search form {
+  display: flex; /* Ensure input and button are aligned in a row */
+  align-items: center; /* Align items vertically */
+  justify-content: center; /* Center content horizontally */
+  gap: 10px; /* Space between input and button */
+  width: 100%; /* Ensure the form takes full width */
+}
+
+#google-search input[type="text"] {
+  width: 100%; /* Increase the input width to 95% of the container */
+  max-width: 1200px; /* Set a much larger maximum width */
+  padding: 12px; /* Add some extra padding for better visuals */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1.2rem; /* Increase font size for better readability */
+  box-sizing: border-box; /* Include padding in the total width */
+}
+
+#google-search button {
+  padding: 10px 20px; /* Button padding */
+  font-size: 1rem; /* Font size */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: rgba(0, 0, 0, 0.7); /* Button background color */
+  color: white; /* Button text color */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+#google-search button:hover {
+  background-color: rgba(0, 0, 0, 0.9); /* Darker background color on hover */
+}
+
+#quote-container {
+  text-align: center; /* Center-align the quote text */
+  max-width: 80%; /* Limit the container width */
+}
+
+#quote-text {
+  font-size: 2rem; /* Font size for the quote text */
+  line-height: 1.5; /* Line spacing for better readability */
+}
+
+#open-menu {
+  position: absolute; /* Position the button relative to the viewport */
+  top: 20px; /* Distance from the top */
+  right: 20px; /* Distance from the right */
+  padding: 10px 20px; /* Button padding */
+  font-size: 1rem; /* Font size for the button */
+  background-color: rgba(0, 0, 0, 0.7); /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+#open-menu:hover {
+  background-color: rgba(0, 0, 0, 0.9); /* Darker background color on hover */
+}
+
+#background-menu {
+  position: fixed; /* Fixed position on the viewport */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  display: flex; /* Flex container */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  flex-direction: column; /* Stack items vertically */
+  z-index: 1000; /* Place above all other elements */
+}
+
+#background-menu.hidden {
+  display: none; /* Hide the menu */
+}
+
+#background-options {
+  text-align: center; /* Center-align the text */
+  color: white; /* Text color */
+}
+
+#background-thumbnails {
+  display: flex; /* Flex container for thumbnails */
+  gap: 10px; /* Space between thumbnails */
+  flex-wrap: wrap; /* Allow wrapping to the next row */
+  justify-content: center; /* Center thumbnails */
+}
+
+.background-option {
+  width: 100px; /* Thumbnail width */
+  height: 60px; /* Thumbnail height */
+  cursor: pointer; /* Pointer cursor on hover */
+  border: 2px solid transparent; /* Default border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.background-option:hover {
+  border: 2px solid #fff; /* White border on hover */
+}
+
+#close-menu {
+  margin-top: 20px; /* Space above the button */
+  padding: 10px 20px; /* Button padding */
+  font-size: 1rem; /* Font size for the button */
+  background-color: rgba(0, 0, 0, 0.7); /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+#close-menu:hover {
+  background-color: rgba(0, 0, 0, 0.9); /* Darker background color on hover */
+}
