@@ -1,3 +1,4 @@
+![](icons/icon128.png)
 # Dharmatab
 
 Dharmatab is a Chrome and Edge extension that transforms your new tab into a peaceful, inspirational space. With motivational quotes inspired by Buddha and a customizable search bar, Dharmatab combines mindfulness with practicality.
