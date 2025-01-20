@@ -9,7 +9,7 @@
 *  **Responsive Design**: Optimized for all screen sizes, providing a seamless user experience.
 
 ## Get the Extension
-* **Chrome Web Store** - Download and install Dharmatab directly from the Chrome Web Store.
+* **[Chrome Web Store](https://chromewebstore.google.com/detail/dharmatab/dpmmnicamfdbhochpmdjmkjbdpbapnkb)** - Download and install Dharmatab directly from the Chrome Web Store.
 * **Microsoft Edge Add-ons Store** - Available for Edge users through the Microsoft Edge Add-ons Store.
 
 ## Installation (Manual)
