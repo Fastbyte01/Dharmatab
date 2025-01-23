@@ -10,7 +10,7 @@
 
 ## Get the Extension
 * **[Chrome Web Store](https://chromewebstore.google.com/detail/dharmatab/dpmmnicamfdbhochpmdjmkjbdpbapnkb)** - Download and install Dharmatab directly from the Chrome Web Store.
-* **Microsoft Edge Add-ons Store** - Available for Edge users through the Microsoft Edge Add-ons Store.
+* **[Microsoft Edge Add-ons Store] (https://microsoftedge.microsoft.com/addons/detail/dharmatab/kkepikplokmimamlljgikcefeepiedpi)** - Available for Edge users through the Microsoft Edge Add-ons Store.
 
 ## Installation (Manual)
 
